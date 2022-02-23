@@ -1,3 +1,9 @@
+--[[
+    SCRIPT FEITO POR vianna#8189
+    FAVOR DEIXAR OS CRÉDITOS PARA REPASSAR O SCRIPT
+    AJUDE A COMUNIDADE
+]]--
+
 local Tunnel = module("vrp","lib/Tunnel")
 local Proxy = module("vrp","lib/Proxy")
 local Tools = module("vrp","lib/Tools")
