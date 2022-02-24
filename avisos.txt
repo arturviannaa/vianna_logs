@@ -1,0 +1,8 @@
+- Lembrando que todas as numerações de teclas devem ser retiradas do site:
+    https://docs.fivem.net/docs/game-references/controls/
+
+- Caso não queira que alguma das teclas configuradas apareça, comente as linhas de código da tecla tanto na thread (client.lua), quanto no server event (server.lua)
+
+- Favor deixar os créditos a vianna#8189 (https://discord.gg/jbahjk6UsD), caso repasse o script.
+
+- Os meus free resources podem ser encontrados em: (https://www.github.com/arturviannaa), sem alterações de terceiros.
