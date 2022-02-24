@@ -132,3 +132,33 @@ AddEventHandler('arrowleft', function()
     local mensagem = "ID: "..user_id..", Steam-Name: "..name..",  apertou (seta pra esquerda) no dia: "..data..""
     PerformHttpRequest(logsWebhook, function(err, text, headers) end, 'POST', json.encode({username = "BOT", content = mensagem}), { ['Content-Type'] = 'application/json' })
 end)
+
+-- server event da tecla numpad8
+RegisterServerEvent('numpad8')
+AddEventHandler('numpad8', function()
+    local user_id = vRP.getUserId(source)
+    local name = GetPlayerName(source)
+    local data = os.date("**%d-%m-%Y** ás **%X**")
+    local mensagem = "ID: "..user_id..", Steam-Name: "..name..",  apertou (numpad8) no dia: "..data..""
+    PerformHttpRequest(logsWebhook, function(err, text, headers) end, 'POST', json.encode({username = "BOT", content = mensagem}), { ['Content-Type'] = 'application/json' })
+end)
+
+-- server event da tecla numpad4
+RegisterServerEvent('numpad4')
+AddEventHandler('numpad4', function()
+    local user_id = vRP.getUserId(source)
+    local name = GetPlayerName(source)
+    local data = os.date("**%d-%m-%Y** ás **%X**")
+    local mensagem = "ID: "..user_id..", Steam-Name: "..name..",  apertou (numpad4) no dia: "..data..""
+    PerformHttpRequest(logsWebhook, function(err, text, headers) end, 'POST', json.encode({username = "BOT", content = mensagem}), { ['Content-Type'] = 'application/json' })
+end)
+
+-- server event da tecla numpad6
+RegisterServerEvent('numpad6')
+AddEventHandler('numpad6', function()
+    local user_id = vRP.getUserId(source)
+    local name = GetPlayerName(source)
+    local data = os.date("**%d-%m-%Y** ás **%X**")
+    local mensagem = "ID: "..user_id..", Steam-Name: "..name..",  apertou (numpad6) no dia: "..data..""
+    PerformHttpRequest(logsWebhook, function(err, text, headers) end, 'POST', json.encode({username = "BOT", content = mensagem}), { ['Content-Type'] = 'application/json' })
+end)

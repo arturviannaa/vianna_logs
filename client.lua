@@ -124,3 +124,33 @@ Citizen.CreateThread(function()
         end
     end
 end)
+
+-- thread da tecla numpad8
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(1)
+        if (IsControlJustPressed(1,111)) then
+            TriggerServerEvent('numpad8')
+        end
+    end
+end)
+
+-- thread da tecla numpad4
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(1)
+        if (IsControlJustPressed(1,108)) then
+            TriggerServerEvent('numpad4')
+        end
+    end
+end)
+
+-- thread da tecla numpad6
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(1)
+        if (IsControlJustPressed(1,109)) then
+            TriggerServerEvent('numpad6')
+        end
+    end
+end)
